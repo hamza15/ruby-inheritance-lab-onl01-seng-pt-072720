@@ -2,7 +2,9 @@ require_relative './user.rb'
 
 class Student < User
 
-  @knowledge = []
+  def new
+    @knowledge = []
+  end
   
   def learn(words)
     @knowledge.push(words)
