@@ -7,6 +7,6 @@ class User
     @last = last
   end
   
-
+  
 
 end
